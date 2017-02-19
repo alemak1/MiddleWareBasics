@@ -3,7 +3,7 @@ const fav = require('./fav');
 const app = express();
 app.use(fav);
 
-app.use((req,res,next) => {
+app.use('/one',(req,res,next) => {
 	console.log("One");
 	next();
 }, (req,res,next) => {
