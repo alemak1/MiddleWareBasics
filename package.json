@@ -1,11 +1,23 @@
 {
-  "name": "understanding-express-middleware",
+  "name": "middleware_basics",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "~4.13.4"
-  }
+    "express": "^4.13.4"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alemak1/MiddleWareBasics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alemak1/MiddleWareBasics/issues"
+  },
+  "homepage": "https://github.com/alemak1/MiddleWareBasics#readme",
+  "description": ""
 }
