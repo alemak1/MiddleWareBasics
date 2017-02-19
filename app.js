@@ -5,7 +5,6 @@ app.use(fav);
 
 app.use((req,res,next) => {
 	req.message = 'This message made it';
-	next();
 });
 
 app.use((req,res,next) => {
