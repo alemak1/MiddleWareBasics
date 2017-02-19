@@ -4,12 +4,13 @@ const app = express();
 app.use(fav);
 
 app.use((req,res,next) => {
-	req.message = 'This message made it';
-	next();
+	console.log("Hello");
+	const err = new Error("Holy Smokes!");
+	next(err);
 });
 
 app.use((req,res,next) => {
-	console.log(req.message);
+	console.log("World");
 	next();
 });
 
