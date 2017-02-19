@@ -6,6 +6,9 @@ app.use(fav);
 app.use((req,res,next) => {
 	console.log("One");
 	next();
+}, (req,res,next) => {
+	console.log("One and a Half");
+	next();
 });
 
 app.use((req,res,next) => {
