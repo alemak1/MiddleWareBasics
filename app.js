@@ -8,6 +8,12 @@ app.use((req,res,next) => {
 	next();
 });
 
+app.use((req,res,next) => {
+	console.log("Two");
+	next();
+});
+
+
 
 app.use((req, res) => res.send('<h1>Express is working!</h1>'));
 app.listen(3000);
